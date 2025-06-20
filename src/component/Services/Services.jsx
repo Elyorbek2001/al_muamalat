@@ -9,7 +9,7 @@ import icon6 from '../../assets/icon6.png';
 const Services = () => {
     return (
         <div className='w-full text-center px-32 '>
-            <h1 className='text-4xl font-bold'>Our services</h1>
+            <h1 className='text-2xl font-bold'>Our services</h1>
             <div className='w-full flex flex-col items-center justify-center gap-4 px-[430px]'>
                 <p className='py-4'>Expert guidance for managing funds in alignment with Islamic principles, helping you make informed, halal investment decisions.</p>
             </div>

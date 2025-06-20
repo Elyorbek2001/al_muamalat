@@ -15,7 +15,7 @@ function App() {
 
 
   return (
-    <>
+    <div className='overflow-x-hidden'>
       <Header />
       <Main />
       <Services />
@@ -25,7 +25,7 @@ function App() {
       <Reviews />
       <Fac />
       <Footer />
-    </>
+    </div>
   )
 }
 
