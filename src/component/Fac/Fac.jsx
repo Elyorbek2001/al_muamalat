@@ -47,10 +47,10 @@ const Fac = () => {
                 />
                 <AccordionCard
                     value="item-4"
-                    title="FAQs"
+                    title="Course Access"
                     content={[
-                        "FAQs cover usage, warranty, and troubleshooting.",
-                        "Still need help? Contact our support team.",
+                        "Will I receive lifetime access to the courses?.",
+                        "Our platform includes downloadable resources such as PDFs and worksheets to help you study and teach effectively.",
                     ]}
                 />
             </div>

@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Play } from "lucide-react";
 
-
+import media2 from "../../assets/media2.jpg";
+import media1 from "../../assets/media1.jpg";
 import media from "../../assets/mediaimg.avif";
+
 
 import video from "../../assets/video/frontend.mp4";
 
@@ -28,12 +30,12 @@ const Media = () => {
             video: video
         },
         {
-            image: media,
+            image: media2,
             title: "What makes Islamic finance unique?",
             video: video
         },
         {
-            image: media,
+            image: media1,
             title: "How is risk managed in Islamic finance?",
             video: video
         },
@@ -48,7 +50,7 @@ const Media = () => {
                 </p>
             </div>
 
-            <div className="px-6 md:px-16 py-10">
+            <div className="py-10">
                 <div className="flex items-center justify-between mb-6">
                     <h2 className="text-3xl font-bold">Our media showcase</h2>
                 </div>

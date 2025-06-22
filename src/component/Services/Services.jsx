@@ -14,7 +14,7 @@ const Services = () => {
                 <p className='py-4'>Expert guidance for managing funds in alignment with Islamic principles, helping you make informed, halal investment decisions.</p>
             </div>
 
-            <div className='grid grid-cols-3 grid-rows-2 py-8 gap-4'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 py-8 gap-4'>
                 <div className='gap-6 py-6 flex flex-col bg-[#DEEAFF] px-8 rounded-xl'>
                     <div className='flex flex-row items-center gap-6'>
                         <img src={icon1} alt="" />
