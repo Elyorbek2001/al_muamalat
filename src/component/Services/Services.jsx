@@ -8,7 +8,7 @@ import icon6 from '../../assets/icon6.png';
 
 const Services = () => {
     return (
-        <div className='text-center px-4 sm:px-12 md:px-4 xl:px-20'>
+        <div className='text-center  p-4 sm:px-12 md:px-4 xl:px-20'>
             <h1 className='text-2xl font-bold'>Our services</h1>
             <div className='w-full flex flex-col items-center justify-center gap-4 sm:px-10 '>
                 <p className='py-2 xl:px-72'>Expert guidance for managing funds in alignment with Islamic principles, helping you make informed, halal investment decisions.</p>

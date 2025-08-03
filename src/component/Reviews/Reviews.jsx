@@ -1,4 +1,5 @@
-// src/component/Reviews/Reviews.jsx
+import React from 'react';
+import finlay from '../../assets/finlay.png';
 
 
 
@@ -16,12 +17,33 @@ const Reviews = () => {
                 <div className="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-start gap-7 py-8">
                     <div className="card_one text-[17px] p-8 border shadow-lg rounded-lg">
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College.</p>
+                        <div className='flex items-center gap-4 mt-4'>
+                            <div><img src={finlay} alt="" /></div>
+
+                            <div> <p className='font-bold'>Finlay Kirk</p>
+                                <p>Web designer</p></div>
+
+                        </div>
                     </div>
                     <div className="card_one text-[17px] p-8 border shadow-lg rounded-lg">
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College.</p>
+                        <div className='flex items-center gap-4 mt-4'>
+                            <div><img src={finlay} alt="" /></div>
+
+                            <div> <p className='font-bold'>Finlay Kirk</p>
+                                <p>Web designer</p></div>
+
+                        </div>
                     </div>
                     <div className="card_one text-[17px] p-8 border shadow-lg rounded-lg">
                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College.</p>
+                        <div className='flex items-center gap-4 mt-4'>
+                            <div><img src={finlay} alt="" /></div>
+
+                            <div> <p className='font-bold'>Finlay Kirk</p>
+                                <p>Web designer</p></div>
+
+                        </div>
                     </div>
                 </div>
             </div>
